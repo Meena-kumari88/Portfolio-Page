@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav
+    class="navbar navbar-dark bg-dark navbar-expand-lg  d-flex align-items-center justify-content-space-between fixed-top"
+    id="navbar-clr">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto fs-5 ">
+          <a class="nav-link active m-3 text-light" aria-current="page" href="#header">Home</a>
+          <a class="nav-link active m-3 text-light" href="#about">About</a>
+          <a class="nav-link active m-3 text-light" href="#services">Services</a>
+          <a class="nav-link active m-3 text-light" href="#portfolio">My Work</a>
+          <a class="nav-link active m-3 text-light" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Home page-->
+  <div class="container" id="header">
+    <div class="row">
+      <div class=" col-12 col-md-7 order-2 order-md-1 pt-5 pb-5">
+        <h4 class="card-title  pt-5">Web Developer</h4>
+        <p class="card-text fs-1">Hi, I'm <span class="text-primary">Meena</span><br>From Chhattisgarh</p>
+        <button type="button" class="btn btn-secondary btn-lg mb-4"><a class=" resume-button"
+            href="https://drive.google.com/file/d/1FaTA7npfdOsRAk-_FTFRcMH6bfFy4UT6/view?usp=sharing"
+            target="_blank">Resume</a></button>
+      </div>
+      <div class="col-12 col-md-5 order-1 order-md-2">
+        <img src="images/my.png" class="img-fluid rounded-start w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!--About-->
+  <div id="about">
+    <div class="container">
+      <div class="about-row">
+        <div class="about-col-1">
+          <img src="images/myimage2.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated and passionate full-stack developer with a background in Computer Science. My journey
+            began with a B.Sc. in Computer Science, followed by an M.Sc., where I topped my class despite initial
+            challenges. Driven by a love for problem-solving and continuous learning, I pursued further skills
+            development at Navgurukul. Here, I honed my expertise in HTML, CSS, JavaScript, and more. I am enthusiastic
+            about leveraging technology to create impactful solutions and am keen to contribute to the tech industry
+            through innovative projects and continuous self-improvement.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-content active-tab" id="skills">
+            <ul>
+              <li><span>HTML</span><br>I have a strong grasp of HTML, demonstrated by completing tasks on FreeCodeCamp
+                and creating multiple responsive web projects. My experience includes developing detailed and
+                user-friendly front-end pages.</li>
+              <li><span>CSS</span><br>I have extensive experience with CSS, having designed and styled multiple
+                responsive web projects. My skills include creating visually appealing and user-friendly layouts using
+                CSS and Bootstrap.</li>
+              <li><span>Javascript</span><br>I have a solid understanding of basic JavaScript, which I've applied in
+                converting flowcharts into functional code and solving DSA problems. My skills include implementing
+                dynamic and interactive features on web pages.</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><span>Assistent Professor 2022-23</span><br>As an Assistant Professor at Shree Shankaracharya
+                Mahavidyalya, I taught both undergraduate and postgraduate students subjects like C, DBMS, and Computer
+                Networks. I managed classes of over 50 students daily, maintained student records, and fulfilled various
+                academic responsibilities.</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span>Navgurukul-2023 Present</span><br>Computer Programming, Navgurukul Foundation for Social Welfare
+                - An 18 Months residential course managed by NavGurukul social welfare organization </li>
+              <li><span>Post-Gradution 2020-2022</span><br>Post Graduation in Computer Science, Hemchand Yadav
+                University, Durg (C.G.) </li>
+              <li><span>Gradution 2018-2020</span><br>Graduation in Computer Science, Hemchand Yadav University, Durg
+                (C.G.) </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Services-->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Web Design</h2>
+          <p> I specialize in creating dynamic and responsive websites using the latest technologies. My expertise
+            includes coding, debugging, and optimizing web applications to enhance user experience and performance.</p>
+          <a href="#services">learn more</a>
+        </div>
+        <div>
+          <h2>Front End design</h2>
+          <p>I focus on building visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. I
+            ensure seamless user experiences by implementing responsive design and interactive features.</p>
+          <a href="#services">learn more</a>
+        </div>
+        <div>
+          <h2>Tutor</h2>
+          <p>If you have doubts about any topic or if it is one that I am well-versed in, you can reach out to me. I can
+            provide thorough guidance and help you understand the subject better."</p>
+          <a href="#services">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--portfolio-->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/food-order.png">
+          <div class="layer">
+            <a href="https://meenawithfood.netlify.app/" target="_blank">
+              <h3 class="text-center p-4">Food Service </h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/survey-page.png">
+          <div class="layer">
+            <a href="https://tech-aven-survey-page.netlify.app/" target="_blank">
+              <h3 class="text-center p-4">Survey Page </h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/tribute.png">
+          <div class="layer">
+            <a href="https://tribute-abdul-kalam-page.netlify.app/" target="_blank">
+              <h3 class="text-center p-4">Tribute Page</h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/document.png">
+          <div class="layer">
+            <a href="https://tech-doc-html-meenna.netlify.app/" target="_blank">
+              <h3 class="text-center p-4">Technical-Documnet Page</h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/product-lan.png">
+          <div class="layer">
+            <a href="https://meena-product-lan-page.netlify.app/" target="_blank">
+              <h3 class="text-center p-4">Product-Landing Page</h3>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 work">
+          <img class="img-fluid  w-100 image-class" src="images/portfolio.png">
+          <div class="layer">
+            <a href="#">
+              <h3 class="text-center p-4">Portfolio Page</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------Contact------------->
+  <div id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="social-icon">
+        <a href="#" class="fa fa-facebook"></a>
+        <i>
+          facebook
+        </i>
+        </a>
+        <a href="#" class="fa fa-github"></a>
+        <i>
+          GitHub
+        </i>
+        </a>
+        <a href="https://www.linkedin.com/notifications/?filter=all" target="_blank" class="fa fa-linkedin"></a>
+        <i>
+          Linkedin
+        </i>
+        </a>
+        <a href="#" class="fa fa-envelope"></a>
+        <i>
+          Mail
+        </i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-----------Footer---------->
+  <div class="contaniner">
+    <footer id="footer">
+      <p>😇
+        This is my first personal
+        portfolio page. But all contact details given are not real.</p>
+      <p>Created by @meenaKumari</p>
+    </footer>
+  </div>
+
+  <script>
+    let tablinks = document.getElementsByClassName("tab-links")
+    let tabcontents = document.getElementsByClassName("tab-content")
+    function opentab(tabName) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabName).classList.add("active-tab")
+    }
+  </script>
+
+</body>
+
+</html>
